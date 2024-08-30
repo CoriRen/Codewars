@@ -18,3 +18,10 @@ console.log(cells(0))
 function squaresNeeded(grains){
     return Math.ceil(Math.log2(grains + 1))
   }
+
+/*Binary Addition:
+Add two numbers and convert the sum to binary*/
+  function addBinary(a,b) {
+    return (a+b).toString(2);
+  }
+  console.log(addBinary(20,7))
