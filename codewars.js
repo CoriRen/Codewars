@@ -25,3 +25,19 @@ Add two numbers and convert the sum to binary*/
     return (a+b).toString(2);
   }
   console.log(addBinary(20,7))
+
+/*Lilke or dislike:
+Recreate the functionality of the Youtube like and dislike buttons*/
+function likeOrDislike(buttons) {
+  let state = 'Nothing';
+
+  for (let i = 0; i < buttons.length; i++) {
+    if (buttons[i] === state) {
+      state = 'Nothing'
+    } else {
+      state = buttons[i]
+    }
+  }
+
+  return state
+}
