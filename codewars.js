@@ -41,3 +41,27 @@ function likeOrDislike(buttons) {
 
   return state
 }
+
+
+/*Simple Fun #384: Is Turing's Equation?*/
+const s = "5+8=31";
+
+function isTuringEquation(s){
+ let nums = s.split(/[+=]/).map((n) => n.split('').reverse().join(''))
+  console.log(`${nums[0]} + ${nums[1]} = ${nums[2]}`)
+  return +nums[0]+ +nums[1] == +nums[2]
+}
+
+console.log(isTuringEquation(s))
+
+/*DNA to RNA Conversion:
+Replace T with U in a string*/
+
+function DNA(dna) {
+  return dna.replaceAll("T","U")
+}
+
+/*Sum  Mixed Array:
+add together an array of strings and numbers*/
+
+let sumMix = (x) => x.map((num) => +num).reduce((sum,acc)=>sum+acc,0)
