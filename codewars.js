@@ -65,3 +65,7 @@ function DNA(dna) {
 add together an array of strings and numbers*/
 
 let sumMix = (x) => x.map((num) => +num).reduce((sum,acc)=>sum+acc,0)
+
+
+//Function 2 - squaring an argument
+let square = (num)=>num**2
