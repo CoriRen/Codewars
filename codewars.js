@@ -69,3 +69,9 @@ let sumMix = (x) => x.map((num) => +num).reduce((sum,acc)=>sum+acc,0)
 
 //Function 2 - squaring an argument
 let square = (num)=>num**2
+
+//Sum of positive
+//Only add the positive numbers of an array together
+function positiveSum2(arr) {
+  return arr.filter((num) => num > 0).reduce((sum, current)=> sum + current, 0)
+}
