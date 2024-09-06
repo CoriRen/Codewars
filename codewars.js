@@ -75,3 +75,8 @@ let square = (num)=>num**2
 function positiveSum2(arr) {
   return arr.filter((num) => num > 0).reduce((sum, current)=> sum + current, 0)
 }
+
+//Disemvowel Trolls
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi,'')  
+}
