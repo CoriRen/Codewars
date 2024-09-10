@@ -5,7 +5,7 @@
 
 ## How It's Made
 
-Tech used: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="100px" style="filter: invert(0);">
+**Tech used**: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50px" style="filter: invert(0);">
 
 Everyday, the first thing I do is solve a Codewar!
 
