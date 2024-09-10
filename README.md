@@ -1,6 +1,6 @@
 <header>
 
-# CodeWars Challenges: Visit Here
+# Codewars Challenges: Visit Here
 
 
 ## How It's Made
