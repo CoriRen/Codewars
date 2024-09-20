@@ -15,4 +15,7 @@ const squareDigits = num => {
     const str = num.toString().split('').map((n) => n**2).join('')
     return +str
   }
-  
+
+  //Refactored
+
+  const squareDigits = num => +num.toString().split('').map((n) => n**2).join('')
