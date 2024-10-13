@@ -1,6 +1,8 @@
 <header>
 
-# Codewars Challenges: Visit Here
+# Codewars Challenges: [Visit Here]([url](https://www.codewars.com/users/mord_proxy))
+
+![image](https://github.com/user-attachments/assets/a5d4dee6-9885-4f04-a757-e9c444d2d87e)
 
 
 ## How It's Made
