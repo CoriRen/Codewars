@@ -8,17 +8,20 @@ Example
 For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].*/
 
 function countPositivesSumNegatives(input) {
-    let countOfPositives = 0;
-    let sumOfNegatives = 0;
-    
-    input.forEach((num) => {
-      if (num > 0) countOfPositives+=1;
-      if (num < 0) sumOfNegatives += num;
-    })
+  let countOfPositives = 0;
+  let sumOfNegatives = 0;
+  let newArray= [];
+
+  if (!input || input.length === 0 ) return newArray;
   
-    let newArray=[countOfPositives,sumOfNegatives]
-  
-    return newArray
-  }
-  
+  input.forEach((num) => {
+    if (num > 0) countOfPositives+=1;
+    if (num < 0) sumOfNegatives += num;
+  })
+
+  return newArray=[countOfPositives,sumOfNegatives]
+
+
+}
+
   
