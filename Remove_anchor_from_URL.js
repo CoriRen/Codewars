@@ -8,3 +8,4 @@ function removeUrlAnchor(url){
     return url.split('#')[0].split('?')[0];
   }
 
+this.toString() === this.toString().toUpperCase()
